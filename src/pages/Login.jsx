@@ -26,9 +26,11 @@ export default function Login() {
     <div className="flex min-h-screen items-center justify-center bg-surface p-6">
       <form onSubmit={submit} className="w-full max-w-sm rounded-xl border border-line bg-white p-8">
         <div className="mb-8 text-center">
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-brand text-sm font-bold text-white">
-            MDH
-          </div>
+          <img
+            src="/logo.png"
+            alt="Logo MI Darul Hikmah"
+            className="mx-auto mb-4 h-16 w-16 rounded-lg object-contain"
+          />
           <h1 className="text-lg font-semibold text-slate-900">MI Darul Hikmah</h1>
           <p className="text-sm text-muted">Aplikasi Guru</p>
         </div>

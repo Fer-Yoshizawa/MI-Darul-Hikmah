@@ -33,9 +33,16 @@ export default function Layout() {
           open ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="border-b border-white/10 px-5 py-5">
-          <p className="font-semibold text-white">MI Darul Hikmah</p>
-          <p className="text-xs text-white/60">Sistem Informasi Guru</p>
+        <div className="flex items-center gap-3 border-b border-white/10 px-5 py-5">
+          <img
+            src="/logo.png"
+            alt="Logo MI Darul Hikmah"
+            className="h-11 w-11 shrink-0 rounded-lg bg-white object-contain"
+          />
+          <div className="min-w-0">
+            <p className="font-semibold text-white">MI Darul Hikmah</p>
+            <p className="text-xs text-white/60">Sistem Informasi Guru</p>
+          </div>
         </div>
 
         <nav className="flex-1 space-y-1 p-3">
